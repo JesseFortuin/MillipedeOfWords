@@ -1,3 +1,5 @@
+using MillipedeOfWords.BL;
+
 namespace MillipedeOfWords.Test
 {
     public class MillipedeCheckerTest
@@ -36,6 +38,7 @@ namespace MillipedeOfWords.Test
             Assert.Equal(expected, actual);
         }
 
+        [Fact]
         public void MillipedeSingleLetterFail()
         {
             //arrange
@@ -52,6 +55,7 @@ namespace MillipedeOfWords.Test
             Assert.Equal(expected, actual);
         }
 
+        [Fact]
         public void MillipedeSingleLetterSuccess()
         {
             //arrange
